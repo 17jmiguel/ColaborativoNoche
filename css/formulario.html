@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de Ropa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="title">
+            <h1 class="text-center"> Formulario de Ropa</h1>
+        </div>
+        <div class="mb-5">
+            <div class="row">
+                <form class="center">
+                    <div class="form-group col-md-6 mb-3">
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="prenda">Tipo de prenda:</label>
+                    <select id="prenda" name="prenda">
+                      <option value="camisa">Camisa</option>
+                      <option value="pantalón">Pantalón</option>
+                      <option value="chaqueta">Chaqueta</option>
+                      <option value="vestido">Vestido</option>
+                    </select>
+                    </div>
+                    <div class="form-group col-md-6 mb-3" class="text-center">
+                        <label for="talla">Talla:</label>
+                        <input type="text" id="talla" name="talla" class="form-control" placeholder="Ingresa la talla">  
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="color">Color:</label>
+                        <input type="text" id="color" name="color" class="form-control" placeholder="Ingresa el color">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="cantidad">Cantidad:</label>
+                        <input type="number" id="cantidad" name="cantidad" class="form-control" placeholder="Ingresa la cantidad">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="comentarios">Comentarios:</label>
+                        <textarea id="comentarios" name="comentarios" class="form-control" placeholder="Ingresa comentario (opcional)"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">
+                  </form>
+            </div>
+    
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
